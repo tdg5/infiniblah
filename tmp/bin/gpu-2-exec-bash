@@ -1,0 +1,6 @@
+kubectl \
+  -n infiniblah \
+  exec \
+  -it gpu-2-infiniblah-deployment-6b8575f46b-db6qt \
+  -- \
+  bash

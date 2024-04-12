@@ -1,0 +1,8 @@
+kubectl \
+  -n infiniblah \
+  exec \
+  -it gpu-1-infiniblah-deployment-6b8575f46b-db6qt \
+  -- \
+  bash \
+  run.sh composer | \
+  tee tmp/gpu-1-logs/1.log
