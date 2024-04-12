@@ -1,0 +1,825 @@
+0% [Working]            Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+0% [Connecting to archive.ubuntu.com] [1 InRelease 24.6 kB/114 kB 22%] [Connect0% [Connecting to archive.ubuntu.com] [Connecting to developer.download.nvidia.                                                                               Get:2 https://deb.nodesource.com/node_20.x nodistro InRelease [12.1 kB]
+0% [Connecting to archive.ubuntu.com] [Connecting to developer.download.nvidia.0% [Connecting to archive.ubuntu.com] [Connecting to developer.download.nvidia.                                                                               Get:3 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64  InRelease [1,581 B]
+0% [Connecting to archive.ubuntu.com (185.125.190.36)] [3 InRelease 1,581 B/1,50% [Connecting to archive.ubuntu.com (185.125.190.36)] [Connecting to ppa.launc0% [Connecting to archive.ubuntu.com (185.125.190.36)] [Connecting to ppa.launc                                                                               Get:4 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [1,192 kB]
+0% [Connecting to archive.ubuntu.com (185.125.190.36)] [4 Packages 12.3 kB/1,19                                                                               0% [Waiting for headers] [Waiting for headers]0% [4 Packages store 0 B] [Waiting for headers] [Waiting for headers] [Waiting                                                                                Get:5 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 Packages [29.7 kB]
+0% [4 Packages store 0 B] [Waiting for headers] [5 Packages 0 B/29.7 kB 0%] [Wa                                                                               0% [4 Packages store 0 B] [Waiting for headers] [Waiting for headers]                                                                     Get:6 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [3,454 kB]
+0% [4 Packages store 0 B] [Waiting for headers] [6 Packages 36.9 kB/3,454 kB 1%0% [4 Packages store 0 B] [Waiting for headers] [Waiting for headers] [Waiting                                                                                Get:7 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [3,367 kB]
+0% [4 Packages store 0 B] [Waiting for headers] [7 Packages 0 B/3,367 kB 0%] [W0% [4 Packages store 0 B] [Waiting for headers] [7 Packages 2,615 kB/3,367 kB 70% [4 Packages store 0 B] [Waiting for headers] [Waiting for headers] [Waiting                                                                                Get:8 https://deb.nodesource.com/node_20.x nodistro/main amd64 Packages [5,184 B]
+0% [4 Packages store 0 B] [Waiting for headers] [Waiting for headers] [8 Packag                                                                               0% [4 Packages store 0 B] [Waiting for headers] [Waiting for headers]                                                                     Get:9 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal InRelease [18.1 kB]
+0% [4 Packages store 0 B] [Waiting for headers] [9 InRelease 13.7 kB/18.1 kB 76                                                                               Get:10 http://archive.ubuntu.com/ubuntu focal InRelease [265 kB]
+0% [4 Packages store 1,959 kB] [10 InRelease 12.6 kB/265 kB 5%] [9 InRelease 13                                                                               0% [10 InRelease 12.6 kB/265 kB 5%] [9 InRelease 13.7 kB/18.1 kB 76%]0% [5 Packages store 0 B] [10 InRelease 12.6 kB/265 kB 5%] [9 InRelease 13.7 kB                                                                               0% [10 InRelease 12.6 kB/265 kB 5%] [9 InRelease 13.7 kB/18.1 kB 76%]0% [6 Packages store 0 B] [10 InRelease 12.6 kB/265 kB 5%] [9 InRelease 13.7 kB0% [6 Packages store 0 B] [10 InRelease 12.6 kB/265 kB 5%] [9 InRelease 13.7 kB                                                                               Get:11 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64  Packages [1,426 kB]
+0% [6 Packages store 0 B] [10 InRelease 12.6 kB/265 kB 5%] [11 Packages 32.8 kB0% [6 Packages store 0 B] [10 InRelease 12.6 kB/265 kB 5%] [9 InRelease 13.7 kB                                                                               0% [6 Packages store 0 B] [10 InRelease 15.1 kB/265 kB 6%]                                                          Get:12 http://ppa.launchpad.net/git-core/ppa/ubuntu focal InRelease [23.8 kB]
+0% [6 Packages store 0 B] [10 InRelease 39.6 kB/265 kB 15%] [12 InRelease 23.8                                                                                0% [6 Packages store 0 B] [10 InRelease 39.6 kB/265 kB 15%]                                                           0% [10 InRelease 47.3 kB/265 kB 18%]0% [7 Packages store 0 B] [10 InRelease 47.3 kB/265 kB 18%]0% [7 Packages store 0 B] [10 InRelease 60.2 kB/265 kB 23%]                                                           Get:13 http://ppa.launchpad.net/deadsnakes/ppa/ubuntu focal/main amd64 Packages [35.5 kB]
+0% [7 Packages store 0 B] [10 InRelease 116 kB/265 kB 44%] [13 Packages 22.9 kB                                                                               0% [7 Packages store 0 B] [10 InRelease 117 kB/265 kB 44%]0% [7 Packages store 0 B] [10 InRelease 157 kB/265 kB 59%]                                                          0% [10 InRelease 199 kB/265 kB 75%] [Waiting for headers]0% [8 Packages store 0 B] [10 InRelease 199 kB/265 kB 75%] [Waiting for headers                                                                               0% [10 InRelease 201 kB/265 kB 76%] [Waiting for headers]0% [11 Packages store 0 B] [10 InRelease 201 kB/265 kB 76%] [Waiting for header                                                                               0% [11 Packages store 0 B] [Waiting for headers]                                                Get:14 http://ppa.launchpad.net/git-core/ppa/ubuntu focal/main amd64 Packages [3,176 B]
+0% [11 Packages store 0 B] [Waiting for headers] [14 Packages 3,176 B/3,176 B 1                                                                               0% [11 Packages store 0 B] [Waiting for headers]                                                0% [Waiting for headers]0% [13 Packages store 0 B] [Waiting for headers]                                                0% [Waiting for headers]0% [14 Packages store 0 B] [Waiting for headers]                                                0% [Waiting for headers]                        Get:15 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+0% [15 InRelease 7,420 B/114 kB 7%]                                   0% [Working]0% [Waiting for headers]                        Get:16 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+0% [16 InRelease 3,556 B/108 kB 3%]                                   0% [Working]0% [Waiting for headers]                        Get:17 http://archive.ubuntu.com/ubuntu focal/multiverse amd64 Packages [177 kB]
+0% [17 Packages 3,625 B/177 kB 2%]                                  0% [Waiting for headers]                        Get:18 http://archive.ubuntu.com/ubuntu focal/restricted amd64 Packages [33.4 kB]
+0% [18 Packages 1,652 B/33.4 kB 5%]0% [17 Packages store 0 B] [18 Packages 1,652 B/33.4 kB 5%]                                                           0% [17 Packages store 0 B] [Waiting for headers]                                                Get:19 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages [11.3 MB]
+0% [17 Packages store 0 B] [19 Packages 2,513 B/11.3 MB 0%]                                                           0% [19 Packages 10.2 kB/11.3 MB 0%]0% [18 Packages store 0 B] [19 Packages 10.2 kB/11.3 MB 0%]                                                           0% [19 Packages 21.8 kB/11.3 MB 0%]43% [19 Packages 195 kB/11.3 MB 2%]                                   71% [Waiting for headers]                         Get:20 http://archive.ubuntu.com/ubuntu focal/main amd64 Packages [1,275 kB]
+71% [20 Packages 14.7 kB/1,275 kB 1%]71% [19 Packages store 0 B] [20 Packages 16.4 kB/1,275 kB 1%]                                                             74% [19 Packages store 0 B] [Waiting for headers]                                                 Get:21 http://archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [1,487 kB]
+74% [19 Packages store 0 B] [21 Packages 8,192 B/1,487 kB 1%]                                                             78% [19 Packages store 0 B] [Waiting for headers]                                                 Get:22 http://archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 Packages [32.4 kB]
+78% [19 Packages store 0 B] [22 Packages 4,933 B/32.4 kB 15%]                                                             78% [19 Packages store 0 B] [Waiting for headers]                                                 Get:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [3,928 kB]
+78% [19 Packages store 0 B] [23 Packages 37.9 kB/3,928 kB 1%]                                                             88% [19 Packages store 0 B] [Waiting for headers]                                                 Get:24 http://archive.ubuntu.com/ubuntu focal-updates/restricted amd64 Packages [3,517 kB]
+88% [19 Packages store 0 B] [24 Packages 16.4 kB/3,517 kB 0%]                                                             96% [19 Packages store 0 B]                           Get:25 http://archive.ubuntu.com/ubuntu focal-backports/main amd64 Packages [55.2 kB]
+96% [19 Packages store 0 B] [25 Packages 12.6 kB/55.2 kB 23%]                                                             97% [25 Packages 20.4 kB/55.2 kB 37%]97% [20 Packages store 0 B] [25 Packages 20.4 kB/55.2 kB 37%]                                                             97% [25 Packages 38.4 kB/55.2 kB 70%]97% [21 Packages store 0 B] [25 Packages 38.4 kB/55.2 kB 70%]                                                             97% [21 Packages store 0 B]                           98% [Waiting for headers]98% [22 Packages store 0 B] [Waiting for headers]                                                 98% [Waiting for headers]98% [23 Packages store 0 B] [Waiting for headers]                                                 Get:26 http://archive.ubuntu.com/ubuntu focal-backports/universe amd64 Packages [28.6 kB]
+98% [23 Packages store 0 B] [26 Packages 2,339 B/28.6 kB 8%]                                                            98% [23 Packages store 0 B]                           99% [Working]99% [24 Packages store 0 B]                           99% [Working]99% [25 Packages store 0 B]                           100% [Working]100% [26 Packages store 0 B]                            100% [Working]              Fetched 32.0 MB in 2s (14.9 MB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 4%Reading package lists... 4%Reading package lists... 39%Reading package lists... 39%Reading package lists... 40%Reading package lists... 40%Reading package lists... 52%Reading package lists... 52%Reading package lists... 63%Reading package lists... 63%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 79%Reading package lists... 79%Reading package lists... 90%Reading package lists... 90%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 4%Reading package lists... 4%Reading package lists... 4%Reading package lists... 4%Reading package lists... 39%Reading package lists... 39%Reading package lists... 40%Reading package lists... 40%Reading package lists... 52%Reading package lists... 52%Reading package lists... 63%Reading package lists... 63%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 68%Reading package lists... 79%Reading package lists... 79%Reading package lists... 90%Reading package lists... 90%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libatm1 libpcap0.8 libpopt0 libxtables12
+Suggested packages:
+  iproute2-doc
+The following NEW packages will be installed:
+  iftop iproute2 libatm1 libpcap0.8 libpopt0 libxtables12 nethogs rsync
+0 upgraded, 8 newly installed, 0 to remove and 41 not upgraded.
+Need to get 1,451 kB of archives.
+After this operation, 4,370 kB of additional disk space will be used.
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 libpopt0 amd64 1.16-14 [26.3 kB]
+1% [1 libpopt0 13.7 kB/26.3 kB 52%]                                   4% [Working]            Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 rsync amd64 3.1.3-8ubuntu0.7 [322 kB]
+4% [2 rsync 2,513 B/322 kB 1%]                              24% [Waiting for headers]                         Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libxtables12 amd64 1.8.4-3ubuntu2.1 [28.7 kB]
+24% [3 libxtables12 1,592 B/28.7 kB 6%]                                       28% [Waiting for headers]                         Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 iproute2 amd64 5.5.0-1ubuntu1 [858 kB]
+28% [4 iproute2 2,011 B/858 kB 0%]                                  78% [Waiting for headers]                         Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libatm1 amd64 1:2.5.1-4 [21.8 kB]
+78% [5 libatm1 2,142 B/21.8 kB 10%]                                   82% [Waiting for headers]                         Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 libpcap0.8 amd64 1.9.1-3 [128 kB]
+82% [6 libpcap0.8 2,419 B/128 kB 2%]                                    91% [Waiting for headers]                         Get:7 http://archive.ubuntu.com/ubuntu focal/universe amd64 iftop amd64 1.0~pre4-6build1 [36.3 kB]
+92% [7 iftop 8,192 B/36.3 kB 23%]                                 96% [Waiting for headers]                         Get:8 http://archive.ubuntu.com/ubuntu focal/universe amd64 nethogs amd64 0.8.5-2build2 [29.9 kB]
+96% [8 nethogs 9,313 B/29.9 kB 31%]                                   100% [Working]              Fetched 1,451 kB in 1s (1,953 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package libpopt0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 48435 files and directories currently installed.)
+Preparing to unpack .../0-libpopt0_1.16-14_amd64.deb ...
+Unpacking libpopt0:amd64 (1.16-14) ...
+Selecting previously unselected package rsync.
+Preparing to unpack .../1-rsync_3.1.3-8ubuntu0.7_amd64.deb ...
+Unpacking rsync (3.1.3-8ubuntu0.7) ...
+Selecting previously unselected package libxtables12:amd64.
+Preparing to unpack .../2-libxtables12_1.8.4-3ubuntu2.1_amd64.deb ...
+Unpacking libxtables12:amd64 (1.8.4-3ubuntu2.1) ...
+Selecting previously unselected package iproute2.
+Preparing to unpack .../3-iproute2_5.5.0-1ubuntu1_amd64.deb ...
+Unpacking iproute2 (5.5.0-1ubuntu1) ...
+Selecting previously unselected package libatm1:amd64.
+Preparing to unpack .../4-libatm1_1%3a2.5.1-4_amd64.deb ...
+Unpacking libatm1:amd64 (1:2.5.1-4) ...
+Selecting previously unselected package libpcap0.8:amd64.
+Preparing to unpack .../5-libpcap0.8_1.9.1-3_amd64.deb ...
+Unpacking libpcap0.8:amd64 (1.9.1-3) ...
+Selecting previously unselected package iftop.
+Preparing to unpack .../6-iftop_1.0~pre4-6build1_amd64.deb ...
+Unpacking iftop (1.0~pre4-6build1) ...
+Selecting previously unselected package nethogs.
+Preparing to unpack .../7-nethogs_0.8.5-2build2_amd64.deb ...
+Unpacking nethogs (0.8.5-2build2) ...
+Setting up libatm1:amd64 (1:2.5.1-4) ...
+Setting up libpcap0.8:amd64 (1.9.1-3) ...
+Setting up libxtables12:amd64 (1.8.4-3ubuntu2.1) ...
+Setting up libpopt0:amd64 (1.16-14) ...
+Setting up nethogs (0.8.5-2build2) ...
+Setting up iproute2 (5.5.0-1ubuntu1) ...
+Setting up iftop (1.0~pre4-6build1) ...
+Setting up rsync (3.1.3-8ubuntu0.7) ...
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of start.
+Created symlink /etc/systemd/system/multi-user.target.wants/rsync.service → /lib/systemd/system/rsync.service.
+Processing triggers for systemd (245.4-4ubuntu3.23) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.14) ...
+CA 'mlx5_0'
+	CA type: MT4123
+	Number of ports: 1
+	Firmware version: 20.40.1000
+	Hardware version: 0
+	Node GUID: 0xb83fd2030027a852
+	System image GUID: 0xb83fd2030027a852
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 12
+		LMC: 0
+		SM lid: 9
+		Capability mask: 0xa651e84a
+		Port GUID: 0xb83fd2030027a852
+		Link layer: InfiniBand
+CA 'mlx5_1'
+	CA type: MT4123
+	Number of ports: 1
+	Firmware version: 20.40.1000
+	Hardware version: 0
+	Node GUID: 0xb83fd2030027a856
+	System image GUID: 0xb83fd2030027a856
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 13
+		LMC: 0
+		SM lid: 9
+		Capability mask: 0xa651e848
+		Port GUID: 0xb83fd2030027a856
+		Link layer: InfiniBand
+CA 'mlx5_2'
+	CA type: MT4123
+	Number of ports: 1
+	Firmware version: 20.40.1000
+	Hardware version: 0
+	Node GUID: 0xb83fd2030027a84e
+	System image GUID: 0xb83fd2030027a84e
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 2
+		LMC: 0
+		SM lid: 9
+		Capability mask: 0xa651e848
+		Port GUID: 0xb83fd2030027a84e
+		Link layer: InfiniBand
+CA 'mlx5_3'
+	CA type: MT4123
+	Number of ports: 1
+	Firmware version: 20.40.1000
+	Hardware version: 0
+	Node GUID: 0xb83fd2030027a69e
+	System image GUID: 0xb83fd2030027a69e
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 10
+		LMC: 0
+		SM lid: 9
+		Capability mask: 0xa651e848
+		Port GUID: 0xb83fd2030027a69e
+		Link layer: InfiniBand
+CA 'mlx5_4'
+	CA type: MT4123
+	Number of ports: 1
+	Firmware version: 20.40.1000
+	Hardware version: 0
+	Node GUID: 0xb83fd2030027a7fe
+	System image GUID: 0xb83fd2030027a7fe
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 16
+		LMC: 0
+		SM lid: 9
+		Capability mask: 0xa651e848
+		Port GUID: 0xb83fd2030027a7fe
+		Link layer: InfiniBand
+CA 'mlx5_5'
+	CA type: MT4123
+	Number of ports: 1
+	Firmware version: 20.40.1000
+	Hardware version: 0
+	Node GUID: 0xb83fd2030027a866
+	System image GUID: 0xb83fd2030027a866
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 17
+		LMC: 0
+		SM lid: 9
+		Capability mask: 0xa651e848
+		Port GUID: 0xb83fd2030027a866
+		Link layer: InfiniBand
+CA 'mlx5_6'
+	CA type: MT4123
+	Number of ports: 1
+	Firmware version: 20.40.1000
+	Hardware version: 0
+	Node GUID: 0xb83fd2030027a862
+	System image GUID: 0xb83fd2030027a862
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 14
+		LMC: 0
+		SM lid: 9
+		Capability mask: 0xa651e848
+		Port GUID: 0xb83fd2030027a862
+		Link layer: InfiniBand
+CA 'mlx5_7'
+	CA type: MT4123
+	Number of ports: 1
+	Firmware version: 20.40.1000
+	Hardware version: 0
+	Node GUID: 0xb83fd2030027a86a
+	System image GUID: 0xb83fd2030027a86a
+	Port 1:
+		State: Active
+		Physical state: LinkUp
+		Rate: 200
+		Base lid: 15
+		LMC: 0
+		SM lid: 9
+		Capability mask: 0xa651e848
+		Port GUID: 0xb83fd2030027a86a
+		Link layer: InfiniBand
+CA: workernode13 mlx5_4:
+      0xb83fd2030027ed72     29    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   32[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: Mellanox Technologies Aggregation Node:
+      0x946dae0300be83aa     67    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   41[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode13 mlx5_7:
+      0xb83fd2030027eac6     58    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   31[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode13 mlx5_5:
+      0xb83fd2030027ba26      8    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   30[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode13 mlx5_6:
+      0xb83fd2030027ed5a     19    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   29[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode13 mlx5_1:
+      0xb83fd2030027ed76     33    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   28[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode13 mlx5_0:
+      0xb83fd2030027ddde      1    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   27[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode13 mlx5_3:
+      0xb83fd2030027dd8e     39    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   26[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode13 mlx5_2:
+      0xb83fd2030027caba     54    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   25[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode14 mlx5_4:
+      0xb83fd2030027a7fe     16    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   24[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode14 mlx5_5:
+      0xb83fd2030027a866     17    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   23[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode14 mlx5_7:
+      0xb83fd2030027a86a     15    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   22[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode14 mlx5_0:
+      0xb83fd2030027a852     12    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   19[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode14 mlx5_1:
+      0xb83fd2030027a856     13    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   20[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode14 mlx5_3:
+      0xb83fd2030027a69e     10    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   18[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode14 mlx5_2:
+      0xb83fd2030027a84e      2    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   17[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode15 mlx5_4:
+      0xb83fd2030027ba0e      5    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   16[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode15 mlx5_5:
+      0xb83fd2030027a30a      3    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   15[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode15 mlx5_7:
+      0xb83fd2030027ed66     24    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   14[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode15 mlx5_6:
+      0xb83fd2030027ed8e     40    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   13[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode15 mlx5_0:
+      0xb83fd2030027ddaa     50    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   11[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode15 mlx5_1:
+      0xb83fd2030027ed6e     26    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   12[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode15 mlx5_3:
+      0xb83fd2030027a85e     20    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   10[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode15 mlx5_2:
+      0xb83fd2030027a846     11    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45    9[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode16 mlx5_4:
+      0xb83fd2030027ca0e      6    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45    8[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode16 mlx5_5:
+      0xb83fd2030027cace     60    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45    7[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode16 mlx5_7:
+      0xb83fd2030027cafa     64    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45    6[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode16 mlx5_6:
+      0xb83fd2030027cae6     61    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45    5[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode16 mlx5_1:
+      0xb83fd2030027a90e      4    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45    4[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode16 mlx5_0:
+      0xb83fd2030027ba3a      9    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45    3[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode16 mlx5_3:
+      0xb83fd2030027ed7a     34    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45    2[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+CA: workernode16 mlx5_2:
+      0xb83fd2030027a912      7    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45    1[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+Switch: 0x946dae0300be83a2 MF0;sw-gpu13to16:MQM8700/U1:
+          45    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>       7    1[  ] "workernode16 mlx5_2" ( )
+          45    2[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      34    1[  ] "workernode16 mlx5_3" ( )
+          45    3[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>       9    1[  ] "workernode16 mlx5_0" ( )
+          45    4[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>       4    1[  ] "workernode16 mlx5_1" ( )
+          45    5[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      61    1[  ] "workernode16 mlx5_6" ( )
+          45    6[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      64    1[  ] "workernode16 mlx5_7" ( )
+          45    7[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      60    1[  ] "workernode16 mlx5_5" ( )
+          45    8[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>       6    1[  ] "workernode16 mlx5_4" ( )
+          45    9[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      11    1[  ] "workernode15 mlx5_2" ( )
+          45   10[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      20    1[  ] "workernode15 mlx5_3" ( )
+          45   11[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      50    1[  ] "workernode15 mlx5_0" ( )
+          45   12[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      26    1[  ] "workernode15 mlx5_1" ( )
+          45   13[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      40    1[  ] "workernode15 mlx5_6" ( )
+          45   14[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      24    1[  ] "workernode15 mlx5_7" ( )
+          45   15[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>       3    1[  ] "workernode15 mlx5_5" ( )
+          45   16[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>       5    1[  ] "workernode15 mlx5_4" ( )
+          45   17[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>       2    1[  ] "workernode14 mlx5_2" ( )
+          45   18[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      10    1[  ] "workernode14 mlx5_3" ( )
+          45   19[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      12    1[  ] "workernode14 mlx5_0" ( )
+          45   20[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      13    1[  ] "workernode14 mlx5_1" ( )
+          45   21[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      14    1[  ] "workernode14 mlx5_6" ( )
+          45   22[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      15    1[  ] "workernode14 mlx5_7" ( )
+          45   23[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      17    1[  ] "workernode14 mlx5_5" ( )
+          45   24[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      16    1[  ] "workernode14 mlx5_4" ( )
+          45   25[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      54    1[  ] "workernode13 mlx5_2" ( )
+          45   26[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      39    1[  ] "workernode13 mlx5_3" ( )
+          45   27[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>       1    1[  ] "workernode13 mlx5_0" ( )
+          45   28[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      33    1[  ] "workernode13 mlx5_1" ( )
+          45   29[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      19    1[  ] "workernode13 mlx5_6" ( )
+          45   30[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>       8    1[  ] "workernode13 mlx5_5" ( )
+          45   31[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      58    1[  ] "workernode13 mlx5_7" ( )
+          45   32[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      29    1[  ] "workernode13 mlx5_4" ( )
+          45   33[  ] ==(                Down/ Polling)==>             [  ] "" ( )
+          45   34[  ] ==(                Down/ Polling)==>             [  ] "" ( )
+          45   35[  ] ==(                Down/ Polling)==>             [  ] "" ( )
+          45   36[  ] ==(                Down/ Polling)==>             [  ] "" ( )
+          45   37[  ] ==(                Down/ Polling)==>             [  ] "" ( )
+          45   38[  ] ==(                Down/ Polling)==>             [  ] "" ( )
+          45   39[  ] ==(                Down/ Polling)==>             [  ] "" ( )
+          45   40[  ] ==(                Down/ Polling)==>             [  ] "" ( )
+          45   41[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      67    1[  ] "Mellanox Technologies Aggregation Node" ( )
+CA: workernode14 mlx5_6:
+      0xb83fd2030027a862     14    1[  ] ==( 4X        53.125 Gbps Active/  LinkUp)==>      45   21[  ] "MF0;sw-gpu13to16:MQM8700/U1" ( )
+sending incremental file list
+created directory /root/c4
+./
+train_small/
+train_small/index.json
+train_small/shard.00000.mds
+train_small/shard.00001.mds
+train_small/shard.00002.mds
+train_small/shard.00003.mds
+train_small/shard.00004.mds
+train_small/shard.00005.mds
+train_small/shard.00006.mds
+train_small/shard.00007.mds
+train_small/shard.00008.mds
+train_small/shard.00009.mds
+train_small/shard.00010.mds
+train_small/shard.00011.mds
+train_small/shard.00012.mds
+train_small/shard.00013.mds
+train_small/shard.00014.mds
+train_small/shard.00015.mds
+train_small/shard.00016.mds
+train_small/shard.00017.mds
+train_small/shard.00018.mds
+train_small/shard.00019.mds
+train_small/shard.00020.mds
+train_small/shard.00021.mds
+train_small/shard.00022.mds
+train_small/shard.00023.mds
+train_small/shard.00024.mds
+val_small/
+val_small/index.json
+val_small/shard.00000.mds
+val_small/shard.00001.mds
+val_small/shard.00002.mds
+
+sent 1,803,575,389 bytes  received 636 bytes  400,794,672.22 bytes/sec
+total size is 1,803,133,184  speedup is 1.00
+[W Utils.hpp:133] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function getCvarInt)
+/root/github/llm-foundry/scripts/train/train.py:375: UserWarning: Unused parameter device_eval_microbatch_size found in cfg. Please check your yaml to ensure this parameter is necessary.
+  warnings.warn(
+2024-03-15 01:40:16,472: rank0[66172][MainThread]: INFO: __main__: Building tokenizer...
+tokenizer_config.json:   0% 0.00/156 [00:00<?, ?B/s]tokenizer_config.json: 100% 156/156 [00:00<00:00, 1.65MB/s]
+vocab.json:   0% 0.00/1.08M [00:00<?, ?B/s]vocab.json: 100% 1.08M/1.08M [00:00<00:00, 13.7MB/s]
+merges.txt:   0% 0.00/457k [00:00<?, ?B/s]merges.txt: 100% 457k/457k [00:00<00:00, 34.5MB/s]
+tokenizer.json:   0% 0.00/2.11M [00:00<?, ?B/s]tokenizer.json: 100% 2.11M/2.11M [00:00<00:00, 35.6MB/s]
+special_tokens_map.json:   0% 0.00/90.0 [00:00<?, ?B/s]special_tokens_map.json: 100% 90.0/90.0 [00:00<00:00, 526kB/s]
+2024-03-15 01:40:23,630: rank0[66172][MainThread]: INFO: __main__: Building train loader...
+2024-03-15 01:40:23,631: rank0[66172][MainThread]: WARNING: streaming.base.dataset: Because `predownload` was not specified, it will default to 8*batch_size if batch_size is not None, otherwise 64. Prior to Streaming v0.7.0, `predownload` defaulted to max(batch_size, 256 * batch_size // num_canonical_nodes).
+2024-03-15 01:40:23,951: rank0[66172][MainThread]: INFO: __main__: Building eval loader...
+2024-03-15 01:40:23,952: rank0[66172][MainThread]: WARNING: streaming.base.dataset: Because `predownload` was not specified, it will default to 8*batch_size if batch_size is not None, otherwise 64. Prior to Streaming v0.7.0, `predownload` defaulted to max(batch_size, 256 * batch_size // num_canonical_nodes).
+2024-03-15 01:40:24,086: rank0[66172][MainThread]: INFO: __main__: Initializing model...
+/root/github/llm-foundry/llmfoundry/models/mpt/configuration_mpt.py:231: UserWarning: If not using a Prefix Language Model, we recommend setting "attn_impl" to "flash" instead of "triton".
+  warnings.warn(
+2024-03-15 01:40:24,088: rank0[66172][MainThread]: INFO: llmfoundry.models.mpt.modeling_mpt: Instantiating an MPTForCausalLM model from /root/github/llm-foundry/llmfoundry/models/mpt/modeling_mpt.py
+2024-03-15 01:40:24,119: rank0[66172][MainThread]: DEBUG: llmfoundry.models.mpt.modeling_mpt: MPTModel(
+  (wte): SharedEmbedding(50368, 4096)
+  (wpe): Embedding(2048, 4096)
+  (emb_drop): Dropout(p=0.0, inplace=False)
+  (blocks): ModuleList(
+    (0-31): 32 x MPTBlock(
+      (norm_1): LPLayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+      (attn): MultiheadAttention(
+        (Wqkv): Linear(in_features=4096, out_features=12288, bias=True)
+        (out_proj): Linear(in_features=4096, out_features=4096, bias=True)
+      )
+      (norm_2): LPLayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+      (ffn): MPTMLP(
+        (up_proj): Linear(in_features=4096, out_features=16384, bias=True)
+        (down_proj): Linear(in_features=16384, out_features=4096, bias=True)
+      )
+      (resid_attn_dropout): Dropout(p=0.0, inplace=False)
+      (resid_ffn_dropout): Dropout(p=0.0, inplace=False)
+    )
+  )
+  (norm_f): LPLayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+)
+2024-03-15 01:40:24,120: rank0[66172][MainThread]: DEBUG: llmfoundry.models.mpt.modeling_mpt: Using kaiming_normal_ initialization.
+2024-03-15 01:40:24,276: rank0[66172][MainThread]: INFO: __main__: Building trainer...
+2024-03-15 01:40:24,277: rank0[66172][MainThread]: INFO: composer.utils.reproducibility: Setting seed to 17
+2024-03-15 01:40:24,277: rank0[66172][MainThread]: INFO: composer.trainer.trainer: Run name: llm
+2024-03-15 01:40:25,504: rank0[66172][MainThread]: INFO: composer.trainer.trainer: Stepping schedulers every batch. To step schedulers every epoch, set `step_schedulers_every_batch=False`.
+2024-03-15 01:40:25,871: rank0[66172][MainThread]: INFO: composer.utils.reproducibility: Setting seed to 17
+2024-03-15 01:40:26,049: rank0[66172][MainThread]: DEBUG: llmfoundry.models.mpt.modeling_mpt: SharedEmbedding cannot be activation checkpointed. Only transformer block or its submodules are eligible for activation checkpointing.
+2024-03-15 01:40:26,049: rank0[66172][MainThread]: DEBUG: llmfoundry.models.mpt.modeling_mpt: Embedding cannot be activation checkpointed. Only transformer block or its submodules are eligible for activation checkpointing.
+2024-03-15 01:40:26,049: rank0[66172][MainThread]: DEBUG: llmfoundry.models.mpt.modeling_mpt: Dropout cannot be activation checkpointed. Only transformer block or its submodules are eligible for activation checkpointing.
+2024-03-15 01:40:26,057: rank0[66172][MainThread]: DEBUG: llmfoundry.models.mpt.modeling_mpt: ModuleList cannot be activation checkpointed. Only transformer block or its submodules are eligible for activation checkpointing.
+2024-03-15 01:40:26,057: rank0[66172][MainThread]: DEBUG: llmfoundry.models.mpt.modeling_mpt: LPLayerNorm cannot be activation checkpointed. Only transformer block or its submodules are eligible for activation checkpointing.
+2024-03-15 01:40:26,058: rank0[66172][MainThread]: DEBUG: llmfoundry.models.mpt.modeling_mpt: MPTModel cannot be activation checkpointed. Only transformer block or its submodules are eligible for activation checkpointing.
+2024-03-15 01:40:26,058: rank0[66172][MainThread]: DEBUG: llmfoundry.models.mpt.modeling_mpt: MPTForCausalLM cannot be activation checkpointed. Only transformer block or its submodules are eligible for activation checkpointing.
+2024-03-15 01:40:26,059: rank0[66172][MainThread]: DEBUG: composer.utils.reproducibility: Restoring the RNG state
+2024-03-15 01:40:26,060: rank0[66172][MainThread]: INFO: composer.trainer.trainer: Setting seed to 17
+2024-03-15 01:40:26,060: rank0[66172][MainThread]: INFO: composer.utils.reproducibility: Setting seed to 17
+2024-03-15 01:40:26,060: rank0[66172][MainThread]: INFO: __main__: Logging config
+data_local: /root/c4
+data_remote: null
+max_seq_len: 2048
+global_seed: 17
+run_name: null
+model:
+  name: mpt_causal_lm
+  init_device: meta
+  d_model: 4096
+  n_heads: 32
+  n_layers: 32
+  expansion_ratio: 4
+  max_seq_len: 2048
+  vocab_size: 50368
+  attn_config:
+    attn_impl: triton
+tokenizer:
+  name: EleutherAI/gpt-neox-20b
+  kwargs:
+    model_max_length: 2048
+train_loader:
+  name: text
+  dataset:
+    local: /root/c4
+    remote: null
+    split: train_small
+    shuffle: true
+    max_seq_len: 2048
+    shuffle_seed: 17
+  drop_last: true
+  num_workers: 8
+eval_loader:
+  name: text
+  dataset:
+    local: /root/c4
+    remote: null
+    split: val_small
+    shuffle: false
+    max_seq_len: 2048
+    shuffle_seed: 17
+  drop_last: false
+  num_workers: 8
+scheduler:
+  name: cosine_with_warmup
+  t_warmup: 100ba
+  alpha_f: 0.1
+optimizer:
+  name: decoupled_adamw
+  lr: 0.00012
+  betas:
+  - 0.9
+  - 0.95
+  eps: 1.0e-08
+  weight_decay: 0.0
+algorithms:
+  gradient_clipping:
+    clipping_type: norm
+    clipping_threshold: 1.0
+max_duration: 100ba
+eval_interval: 1ep
+eval_first: false
+eval_subset_num_batches: -1
+global_train_batch_size: 256
+seed: 17
+device_eval_batch_size: 8
+device_train_microbatch_size: 16
+precision: amp_bf16
+fsdp_config:
+  sharding_strategy: FULL_SHARD
+  mixed_precision: PURE
+  activation_checkpointing: true
+  activation_checkpointing_reentrant: false
+  activation_cpu_offload: false
+  limit_all_gathers: true
+progress_bar: false
+log_to_console: true
+console_log_interval: 1ba
+callbacks:
+  speed_monitor:
+    window_size: 10
+  lr_monitor: {}
+  memory_monitor: {}
+  runtime_estimator: {}
+device_eval_microbatch_size: 16
+n_gpus: 16
+device_train_batch_size: 16
+device_train_grad_accum: 1
+merge: true
+n_params: 6658859008
+n_trainable_params: 6658859008
+
+2024-03-15 01:40:26,251: rank0[66172][MainThread]: INFO: __main__: Starting training...
+2024-03-15 01:40:26,251: rank0[66172][MainThread]: INFO: composer.trainer.trainer: Using precision Precision.AMP_BF16
+******************************
+Config:
+composer_commit_hash: None
+composer_version: 0.19.1
+enabled_algorithms/GradientClipping: true
+node_name: unknown because NODENAME environment variable not set
+num_gpus_per_node: 8
+num_nodes: 2
+rank_zero_seed: 17
+time/remaining_estimate_unit: hours
+
+******************************
+2024-03-15 01:40:26,252: rank0[66172][MainThread]: DEBUG: composer.trainer.trainer: Spinning the dataloaders
+2024-03-15 01:40:26,466: rank0[69118][MainThread]: WARNING: streaming.base.dataset: Because `num_canonical_nodes` was not specified, and `shuffle_algo` is py1e, it will default to be equal to physical nodes. Prior to Streaming v0.7.0, `num_canonical_nodes` defaulted to 64 * physical nodes.
+2024-03-15 01:40:26,466: rank0[69118][MainThread]: WARNING: streaming.base.dataset: Because `shuffle_block_size` was not specified, it will default to max(4_000_000 // num_canonical_nodes, 1 << 18) if num_canonical_nodes is not None, otherwise 262144. Prior to Streaming v0.7.0, `shuffle_block_size` defaulted to 262144.
+2024-03-15 01:40:27,484: rank0[73820][MainThread]: WARNING: streaming.base.dataset: Because `num_canonical_nodes` was not specified, and `shuffle_algo` is py1e, it will default to be equal to physical nodes. Prior to Streaming v0.7.0, `num_canonical_nodes` defaulted to 64 * physical nodes.
+2024-03-15 01:40:27,484: rank0[73820][MainThread]: WARNING: streaming.base.dataset: Because `shuffle_block_size` was not specified, it will default to max(4_000_000 // num_canonical_nodes, 1 << 18) if num_canonical_nodes is not None, otherwise 262144. Prior to Streaming v0.7.0, `shuffle_block_size` defaulted to 262144.
+[batch=1/100]:
+	 Train time/epoch: 0
+	 Train time/batch: 0
+	 Train time/sample: 0
+	 Train time/batch_in_epoch: 0
+	 Train time/sample_in_epoch: 0
+	 Train time/token: 0
+	 Train time/token_in_epoch: 0
+	 Train memory/current_allocated_mem: 8.8058
+	 Train memory/current_active_mem: 8.8058
+	 Train memory/current_inactive_mem: 3.9344
+	 Train memory/current_reserved_mem: 34.7440
+	 Train memory/peak_allocated_mem: 22.2490
+	 Train memory/peak_active_mem: 23.2900
+	 Train memory/peak_inactive_mem: 5.4147
+	 Train memory/peak_reserved_mem: 34.7440
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 11.8596
+	 Train metrics/train/LanguageCrossEntropy: 11.8596
+	 Train metrics/train/LanguagePerplexity: 141435.9062
+	 Train time/train: 0.0046
+	 Train time/val: 0.0000
+	 Train time/total: 0.0046
+	 Train lr-DecoupledAdamW/group0: 0.0000
+[batch=2/100]:
+	 Train time/batch: 1
+	 Train time/sample: 256
+	 Train time/batch_in_epoch: 1
+	 Train time/sample_in_epoch: 256
+	 Train time/token: 524288
+	 Train time/token_in_epoch: 524288
+	 Train memory/current_allocated_mem: 12.1360
+	 Train memory/current_active_mem: 12.1360
+	 Train memory/current_inactive_mem: 6.5920
+	 Train memory/current_reserved_mem: 41.3750
+	 Train memory/peak_allocated_mem: 25.7980
+	 Train memory/peak_active_mem: 26.6200
+	 Train memory/peak_inactive_mem: 9.6993
+	 Train memory/peak_reserved_mem: 41.3750
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 11.8526
+	 Train metrics/train/LanguageCrossEntropy: 11.8526
+	 Train metrics/train/LanguagePerplexity: 140451.5938
+	 Train time/train: 0.0072
+	 Train time/val: 0.0000
+	 Train time/total: 0.0072
+	 Train lr-DecoupledAdamW/group0: 0.0000
+	 Train time/remaining_estimate: 0.2544
+[batch=3/100]:
+	 Train time/batch: 2
+	 Train time/sample: 512
+	 Train time/batch_in_epoch: 2
+	 Train time/sample_in_epoch: 512
+	 Train time/token: 1048576
+	 Train time/token_in_epoch: 1048576
+	 Train memory/current_allocated_mem: 12.1360
+	 Train memory/current_active_mem: 12.1360
+	 Train memory/current_inactive_mem: 3.2911
+	 Train memory/current_reserved_mem: 41.3750
+	 Train memory/peak_allocated_mem: 25.7980
+	 Train memory/peak_active_mem: 26.6200
+	 Train memory/peak_inactive_mem: 11.6470
+	 Train memory/peak_reserved_mem: 41.3750
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 11.8595
+	 Train metrics/train/LanguageCrossEntropy: 11.8595
+	 Train metrics/train/LanguagePerplexity: 141423.6406
+	 Train time/train: 0.0098
+	 Train time/val: 0.0000
+	 Train time/total: 0.0098
+	 Train lr-DecoupledAdamW/group0: 0.0000
+	 Train time/remaining_estimate: 0.2524
+[batch=4/100]:
+	 Train time/batch: 3
+	 Train time/sample: 768
+	 Train time/batch_in_epoch: 3
+	 Train time/sample_in_epoch: 768
+	 Train time/token: 1572864
+	 Train time/token_in_epoch: 1572864
+	 Train memory/current_allocated_mem: 12.1360
+	 Train memory/current_active_mem: 12.1360
+	 Train memory/current_inactive_mem: 6.5920
+	 Train memory/current_reserved_mem: 41.3750
+	 Train memory/peak_allocated_mem: 25.7980
+	 Train memory/peak_active_mem: 26.6200
+	 Train memory/peak_inactive_mem: 11.6470
+	 Train memory/peak_reserved_mem: 41.3750
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 15.6873
+	 Train metrics/train/LanguageCrossEntropy: 15.6871
+	 Train metrics/train/LanguagePerplexity: 6498676.0000
+	 Train time/train: 0.0124
+	 Train time/val: 0.0000
+	 Train time/total: 0.0124
+	 Train lr-DecoupledAdamW/group0: 0.0000
+	 Train time/remaining_estimate: 0.2501
+[batch=5/100]:
+	 Train time/batch: 4
+	 Train time/sample: 1024
+	 Train time/batch_in_epoch: 4
+	 Train time/sample_in_epoch: 1024
+	 Train time/token: 2097152
+	 Train time/token_in_epoch: 2097152
+	 Train memory/current_allocated_mem: 12.1360
+	 Train memory/current_active_mem: 12.1360
+	 Train memory/current_inactive_mem: 4.3648
+	 Train memory/current_reserved_mem: 41.3750
+	 Train memory/peak_allocated_mem: 25.7980
+	 Train memory/peak_active_mem: 26.6200
+	 Train memory/peak_inactive_mem: 11.6470
+	 Train memory/peak_reserved_mem: 41.3750
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 17.4696
+	 Train metrics/train/LanguageCrossEntropy: 17.4692
+	 Train metrics/train/LanguagePerplexity: 38618212.0000
+	 Train time/train: 0.0150
+	 Train time/val: 0.0000
+	 Train time/total: 0.0150
+	 Train lr-DecoupledAdamW/group0: 0.0000
+	 Train time/remaining_estimate: 0.2477
+[batch=6/100]:
+	 Train time/batch: 5
+	 Train time/sample: 1280
+	 Train time/batch_in_epoch: 5
+	 Train time/sample_in_epoch: 1280
+	 Train time/token: 2621440
+	 Train time/token_in_epoch: 2621440
+	 Train memory/current_allocated_mem: 12.1360
+	 Train memory/current_active_mem: 12.1360
+	 Train memory/current_inactive_mem: 7.6657
+	 Train memory/current_reserved_mem: 41.3750
+	 Train memory/peak_allocated_mem: 25.7980
+	 Train memory/peak_active_mem: 26.6200
+	 Train memory/peak_inactive_mem: 11.6470
+	 Train memory/peak_reserved_mem: 41.3750
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 16.8034
+	 Train metrics/train/LanguageCrossEntropy: 16.8032
+	 Train metrics/train/LanguagePerplexity: 19839406.0000
+	 Train time/train: 0.0176
+	 Train time/val: 0.0000
+	 Train time/total: 0.0176
+	 Train lr-DecoupledAdamW/group0: 0.0000
+	 Train time/remaining_estimate: 0.2452
+[batch=7/100]:
+	 Train time/batch: 6
+	 Train time/sample: 1536
+	 Train time/batch_in_epoch: 6
+	 Train time/sample_in_epoch: 1536
+	 Train time/token: 3145728
+	 Train time/token_in_epoch: 3145728
+	 Train memory/current_allocated_mem: 12.1360
+	 Train memory/current_active_mem: 12.1360
+	 Train memory/current_inactive_mem: 3.2911
+	 Train memory/current_reserved_mem: 41.3750
+	 Train memory/peak_allocated_mem: 25.7980
+	 Train memory/peak_active_mem: 26.6200
+	 Train memory/peak_inactive_mem: 11.6470
+	 Train memory/peak_reserved_mem: 41.3750
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 14.7053
+	 Train metrics/train/LanguageCrossEntropy: 14.7053
+	 Train metrics/train/LanguagePerplexity: 2434576.0000
+	 Train time/train: 0.0202
+	 Train time/val: 0.0000
+	 Train time/total: 0.0202
+	 Train lr-DecoupledAdamW/group0: 0.0000
+	 Train time/remaining_estimate: 0.2426
+[batch=8/100]:
+	 Train time/batch: 7
+	 Train time/sample: 1792
+	 Train time/batch_in_epoch: 7
+	 Train time/sample_in_epoch: 1792
+	 Train time/token: 3670016
+	 Train time/token_in_epoch: 3670016
+	 Train memory/current_allocated_mem: 12.1360
+	 Train memory/current_active_mem: 12.1360
+	 Train memory/current_inactive_mem: 6.5920
+	 Train memory/current_reserved_mem: 41.3750
+	 Train memory/peak_allocated_mem: 25.7980
+	 Train memory/peak_active_mem: 26.6200
+	 Train memory/peak_inactive_mem: 11.6470
+	 Train memory/peak_reserved_mem: 41.3750
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 13.7453
+	 Train metrics/train/LanguageCrossEntropy: 13.7453
+	 Train metrics/train/LanguagePerplexity: 932195.1875
+	 Train time/train: 0.0228
+	 Train time/val: 0.0000
+	 Train time/total: 0.0228
+	 Train lr-DecoupledAdamW/group0: 0.0000
+	 Train time/remaining_estimate: 0.2400
+[batch=9/100]:
+	 Train time/batch: 8
+	 Train time/sample: 2048
+	 Train time/batch_in_epoch: 8
+	 Train time/sample_in_epoch: 2048
+	 Train time/token: 4194304
+	 Train time/token_in_epoch: 4194304
+	 Train memory/current_allocated_mem: 12.1360
+	 Train memory/current_active_mem: 12.1360
+	 Train memory/current_inactive_mem: 3.2911
+	 Train memory/current_reserved_mem: 41.3750
+	 Train memory/peak_allocated_mem: 25.7980
+	 Train memory/peak_active_mem: 26.6200
+	 Train memory/peak_inactive_mem: 11.6470
+	 Train memory/peak_reserved_mem: 41.3750
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 12.3576
+	 Train metrics/train/LanguageCrossEntropy: 12.3570
+	 Train metrics/train/LanguagePerplexity: 232593.1562
+	 Train time/train: 0.0255
+	 Train time/val: 0.0000
+	 Train time/total: 0.0255
+	 Train lr-DecoupledAdamW/group0: 0.0000
+	 Train time/remaining_estimate: 0.2374
+[batch=10/100]:
+	 Train time/batch: 9
+	 Train time/sample: 2304
+	 Train time/batch_in_epoch: 9
+	 Train time/sample_in_epoch: 2304
+	 Train time/token: 4718592
+	 Train time/token_in_epoch: 4718592
+	 Train memory/current_allocated_mem: 12.1360
+	 Train memory/current_active_mem: 12.1360
+	 Train memory/current_inactive_mem: 7.6657
+	 Train memory/current_reserved_mem: 41.3750
+	 Train memory/peak_allocated_mem: 25.7980
+	 Train memory/peak_active_mem: 26.6200
+	 Train memory/peak_inactive_mem: 11.6470
+	 Train memory/peak_reserved_mem: 41.3750
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 12.1678
+	 Train metrics/train/LanguageCrossEntropy: 12.1660
+	 Train metrics/train/LanguagePerplexity: 192153.1719
+	 Train time/train: 0.0281
+	 Train time/val: 0.0000
+	 Train time/total: 0.0281
+	 Train lr-DecoupledAdamW/group0: 0.0000
+	 Train time/remaining_estimate: 0.2348
+[batch=11/100]:
+	 Train time/batch: 10
+	 Train time/sample: 2560
+	 Train time/batch_in_epoch: 10
+	 Train time/sample_in_epoch: 2560
+	 Train time/token: 5242880
+	 Train time/token_in_epoch: 5242880
+	 Train memory/current_allocated_mem: 12.1360
+	 Train memory/current_active_mem: 12.1360
+	 Train memory/current_inactive_mem: 3.2911
+	 Train memory/current_reserved_mem: 41.3750
+	 Train memory/peak_allocated_mem: 25.7980
+	 Train memory/peak_active_mem: 26.6200
+	 Train memory/peak_inactive_mem: 11.6470
+	 Train memory/peak_reserved_mem: 41.3750
+	 Train memory/alloc_retries: 0
+	 Train trainer/device_train_microbatch_size: 16
+	 Train loss/train/total: 11.4086
+	 Train metrics/train/LanguageCrossEntropy: 11.4084
+	 Train metrics/train/LanguagePerplexity: 90074.5469
+	 Train throughput/batches_per_sec: 0.1065
+	 Train throughput/samples_per_sec: 27.2572
+	 Train throughput/device/batches_per_sec: 0.0067
+	 Train throughput/device/samples_per_sec: 1.7036
+
+# GOOD GOOD GOOD GOOD GOOD GOOD GOOD GOOD GOOD GOOD
+	 Train throughput/tokens_per_sec: 55822.7507
+# GOOD GOOD GOOD GOOD GOOD GOOD GOOD GOOD GOOD GOOD
+
+	 Train throughput/device/tokens_per_sec: 3488.9219
+	 Train throughput/flops_per_sec: 2410112623330244.5000
+	 Train throughput/device/flops_per_sec: 150632038958140.2812
+	 Train throughput/device/mfu: 0.4828
+	 Train time/train: 0.0307
+	 Train time/val: 0.0000
+	 Train time/total: 0.0307
+	 Train lr-DecoupledAdamW/group0: 0.0000
+	 Train time/remaining_estimate: 0.2322
