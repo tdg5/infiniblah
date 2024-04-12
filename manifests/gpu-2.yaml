@@ -1,0 +1,97 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gpu-2-infiniblah-service
+  namespace: infiniblah
+spec:
+  type: LoadBalancer
+  selector:
+    app: gpu-2-infiniblah-deployment
+  ports:
+    - name: composer
+      protocol: TCP
+      port: 7501
+      targetPort: 7501
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gpu-2-infiniblah-deployment
+  namespace: infiniblah
+spec:
+  selector:
+    matchLabels:
+      app: gpu-2-infiniblah-deployment
+  replicas: 1
+  template:
+    metadata:
+      annotations:
+        k8s.v1.cni.cncf.io/networks: |
+          [
+            {
+              "name": "mlnx-0"
+            }
+          ]
+      labels:
+        app: gpu-2-infiniblah-deployment
+    spec:
+      hostPID: true
+      nodeSelector:
+        nodetype: gpu
+        category: exclusive
+        gpuspecs: A100_80GB
+      tolerations:
+      - effect: NoSchedule
+        operator: Equal
+        value: "gpu"
+        key: "nodetype"
+      - effect: NoSchedule
+        operator: Equal
+        value: "exclusive"
+        key: "category"
+      containers:
+      - name: gpu-2-infiniblah-deployment
+        securityContext:
+          capabilities:
+            add: [ "IPC_LOCK" ]
+        tty: true
+        # Obviously not the real image
+        image: image-from-Dockerfile
+        imagePullPolicy: Always
+        env:
+        - name: HF_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: hf-secret
+              key: HF_TOKEN
+        - name: WANDB_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: wandb-secret
+              key: WANDB_API_KEY
+        - name: GITHUB_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: github-token
+              key: GITHUB_TOKEN
+        ports:
+        - containerPort: 7501
+        volumeMounts:
+        - name: shared-network-drive
+          mountPath: "/nfs"
+        - name: dshm
+          mountPath: "/dev/shm"
+        resources:
+          limits:
+            memory: 2Gi
+            cpu: 3000m
+            rdma/rdma_shared_device_a: 1
+      volumes:
+      - name: shared-network-drive
+        nfs:
+          server: mine.nfs.com
+          path: /nfs
+      - name: dshm
+        emptyDir:
+          medium: Memory
