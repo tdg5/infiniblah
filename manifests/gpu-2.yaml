@@ -84,8 +84,9 @@ spec:
           mountPath: "/dev/shm"
         resources:
           limits:
-            memory: 2Gi
             cpu: 3000m
+            memory: 8Gi
+            nvidia.com/gpu: 4
             rdma/rdma_shared_device_a: 1
       volumes:
       - name: shared-network-drive
