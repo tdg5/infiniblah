@@ -31,7 +31,7 @@ if [ "$ACTION" = "setup" ]; then
   for TEST_POD in $(echo "$TEST_PODS"); do
     # Set up the pods by copying relevant files and making them executable
     kubectl -n "$NAMESPACE" cp $BIN_DIR/run.sh "${TEST_POD}:run.sh"
-    kubectl -n "$NAMESPACE" cp $BIN_DIR/scripts/all_reduce_bench.py "${TEST_POD}:all_reduce_bench.py"
+    kubectl -n "$NAMESPACE" cp $REPO_DIR/scripts/all_reduce_bench.py "${TEST_POD}:all_reduce_bench.py"
     kubectl -n "$NAMESPACE" exec -it "${TEST_POD}" -- chmod u+x run.sh
     # Set up local environment with convenience scripts for `kubectl exec` to pods
     if `echo "${TEST_POD}" | grep -q gpu-1`; then
